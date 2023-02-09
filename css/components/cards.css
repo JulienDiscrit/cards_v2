@@ -1,0 +1,82 @@
+.card-category {
+  padding: 20px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(163, 163, 163);
+  font-size: 20px;
+  background-position: center;
+  color: aliceblue;
+}
+
+#card-title {
+  color: black;
+}
+
+
+
+.card-product {
+  background-color: #e3e7e9;
+  display: flex;
+  align-items: center;
+  height: 150px;
+  justify-content: space-between;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(163 163 163);
+}
+
+.card-product img {
+  width: 150 px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-trip {
+  position: relative;
+  height: 250px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(163 163 163);
+  overflow: hidden;
+}
+
+.avatar {
+  position: absolute;
+  top: 178px;
+  left: 448px;
+}
+
+#avatar {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 2px solid #e3e7e9 ;
+}
+
+.divfooter-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 9px;
+}
+
+
+.card-trip img {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.title_descr {
+
+
+}
+
+.card-info {
+  padding: 0px 30px;
+}
